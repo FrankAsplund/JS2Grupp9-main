@@ -1,5 +1,6 @@
 const articles = JSON.parse(localStorage.bollar);
 
+// Frank
 /* Lägg till kvantitet på vara */
 var counterVal = 0;
 var trash = document.getElementsByClassName("bi bi-trash-fill");
@@ -39,3 +40,5 @@ document.getElementById("checkoutBtn").addEventListener("click", function () {
 document.getElementById("closeBox").addEventListener("click", function () {
   console.log("Rutan har nu blivit kryssad!");
 });
+
+// Frank
